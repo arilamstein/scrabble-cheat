@@ -4,6 +4,7 @@ def load_words():
 
     return sorted(valid_words)
 
+
 def can_spell_word(word, tiles, requirements):
     # 1 letter words are not valid
     if len(word) == 1:
@@ -52,3 +53,6 @@ def get_all_possible_words(tiles, requirements=None):
              if can_spell_word(one_word, tiles, requirements)]
 
     return sorted(words, key=lambda x: x[1], reverse=True)
+
+# Print an example
+print(get_all_possible_words('crtswyo'))
