@@ -62,4 +62,4 @@ def starts_with_ends_with(starts_with="", ends_with=""):
     return sorted(words, key=lambda x: x[1], reverse=True)
 
 # Print an example
-get_all_words('ilzsiwl', max_length=7, ends_with='i')
+print(get_all_words('ilzsiwl', max_length=7, ends_with='i'))
