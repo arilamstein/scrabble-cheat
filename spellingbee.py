@@ -1,4 +1,4 @@
-# cody to cheat at the NY Times "Spelling Bee"
+# code to cheat at the NY Times "Spelling Bee"
 # https://www.nytimes.com/puzzles/spelling-bee
 from scrabblecheat import load_words
 
